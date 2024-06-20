@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.Hero-section {
+  padding: 50px 20px;
+  background: #f4f4f4;
+}
+
+.Hero-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.Hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.Hero-section button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+.Products {
+  padding: 50px 20px;
+}
+
+.Products h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.Product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.Product {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  text-align: left;
+}
+
+.Product h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.Product p {
+  margin: 5px 0;
+}
+
+.Product button {
+  padding: 5px 10px;
+  font-size: 1em;
+  color: white;
+  background: #28a745;
+  border: none;
+  cursor: pointer;
+}
+
+.App-footer {
+  background: #282c34;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.App-footer p {
+  margin: 0;
+}
